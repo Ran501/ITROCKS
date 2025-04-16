@@ -1,0 +1,29 @@
+.background { /* Your background image */
+    background-size: cover; /* Cover the entire container */
+    background-position: center; /* Center the background image */
+    height: 100vh; /* Full height of the viewport */
+    display: flex; /* Use flexbox for centering content */
+    justify-content: center; /* Center horizontally */
+    z-index:10;
+    align-items: center; /* Center vertically */
+}
+
+
+.team1:hover {
+    background: url("../img/itrocks.png") no-repeat center center;
+    background-size: cover;
+    z-index: 1000;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.background_img{
+    color: white;
+    margin: 100px;
+    padding-left: 60px;
+    align-items: center;    
+}
+
+.background_img h2 {
+    font-size: 40px;
+}

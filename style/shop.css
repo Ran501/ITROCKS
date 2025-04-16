@@ -1,0 +1,113 @@
+.card-title {
+    font-size: 1rem;
+    margin-bottom: 10px;
+}
+
+.card-text {
+    font-size: 1rem;
+    margin-bottom: 15px;
+}
+
+.card-container {
+    display: grid; /* This was missing */
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px; /* Space between cards */
+    width: 100%;
+    padding: 15px;
+    box-sizing: border-box;
+}
+/* Cart badge styles */
+.cart-badge {
+    position: absolute;
+    top: -5px;
+    right: -5px;
+    background-color: red;
+    color: white;
+    border-radius: 50%;
+    width: 18px;
+    height: 18px;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+#cart_icon {
+    position: relative;
+    cursor: pointer;
+    font-size: 24px;
+}
+
+.discount{
+    background-color: #544d4d;
+    padding:15px;
+    color:white;
+    align-items: center;
+    text-align: center;
+}
+
+.kit{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    background-color: #E4D0B7
+    ;
+    color: black;
+    padding:15px;
+    
+    h3{
+        color:red;
+        font-size:1.5rem;
+        font-weight: bold;
+    };
+    p{
+        color:#e31b23;
+        font-weight:bold;
+    }
+}
+
+#cart_icon{
+    float:right;
+    cursor:pointer;
+}
+.cart:hover{
+    cursor: pointer;
+}
+
+
+.most
+{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    color:red;
+    margin: 25px;
+    padding:15px;
+}
+
+.card{
+    background-color: #ffffff;
+}
+
+.card:hover{
+    cursor: pointer;
+    transform: scale(1.02);
+    transition: transform 0.3s ease-in-out;
+}
+
+.dis {
+    position: relative;
+    width: 100px;
+    background-color: red;
+    color: white;
+    text-align: center;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.word1{
+    font-size: 15px;
+    margin: 15px;
+    padding:15px;
+    height:300px;
+}

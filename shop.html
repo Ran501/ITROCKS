@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Football Club</title>
+    <link rel="stylesheet" href="style/about.css">
+    <link rel="stylesheet" href="style/background_img.css">
+    <link rel="stylesheet" href="style/fixture.css">
+    <link rel="stylesheet" href="style/footer.css">
+    <link rel="stylesheet" href="style/global.css">
+    <link rel="stylesheet" href="style/header.css">
+    <link rel="stylesheet" href="style/logo_sponsor.css">
+    <link rel="stylesheet" href="style/responsive.css">
+    <link rel="stylesheet" href="style/shop.css">
+    <link rel="stylesheet" href="style/squad.css">
+    <link rel="stylesheet" href="style/shop_header.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="itfc">
+            <a href = "index.html" class = "itfc">
+                <img src = "img/it.jpg" alt="it" class="it1" width=80px>
+            </a>    
+        </div>  
+        <nav>
+            <ul class = 'sidebar'>
+                <li onclick=hideSidebar()><a href="#"></a><svg xmlns="http://www.w3.org/2000/svg" height="26px" viewBox="0 -960 960 960" width="26px" fill="#e3e3e3" class="close"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></a></li>
+                <li><a href="ticket.html">Ticket</a></li>
+                <li><a href="shop.html" target ="blank">Shop</a></li>
+                <li><a href="squad.html">Squad</a></li>
+                <li><a href="about.html">Club</a></li>
+            </ul>
+
+            <ul>
+                <li class="hideonMObile"><a href="ticket.html">Ticket</a></li>
+                <li class="hideonMObile"><a href="shop.html" target ="blank">Shop</a></li>
+                <li class="hideonMObile"><a href="squad.html">Squad</a></li>
+                <li class="hideonMObile"><a href="about.html">Club</a></li>
+                <li class = "menu_button" onclick = showSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="26px" fill="#e3e3e3"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></a></li>
+            </ul>
+
+        </nav>
+        <div class="drukfitfc">
+            <img src="img/drukfit.png" alt="drukfit" class="drukfit" width="80px">
+        </div>
+    </header>
+
+    <script>
+       function showSidebar(){
+            const sidebar = document.querySelector('.sidebar');
+            sidebar.style.display = "flex";
+       }
+
+       function hideSidebar(){
+            const sidebar = document.querySelector('.sidebar');
+            sidebar.style.display = "none";
+       }
+    </script>
+
+    <main>
+        <div class="discount">
+            <h3>ALL KITS UP TO 50% OFF | INClUDING PLAYER PRINTING</h3>
+        </div>
+
+        <div class="kit">
+            <div class="men">
+                <h1><span>MEN</span></h1>
+                <h3>Kit</h3>
+            </div>
+            <p>Step up your game and show your team spirit with the complete IT Football Club Collection! From our official kits and jerseys to exclusive fan gear, we’ve got everything you need to represent IT FC both on and off the field. Whether you're gearing up for match day or showing your support in style, this collection has it all.</p>
+        </div>
+        <div class="most">
+            <div>
+            <h1>MOST POPULAR</h1>
+            </div>
+            
+            <div id="cart-summary">
+                <h3 id = "cart_icon" onclick = showitemlist()>🛒</h3>
+            </div>
+
+        </div>
+
+        <div class="card-container">
+            <div class="card">
+                <div class="dis">
+                    <p>-50%</p>
+                </div>
+                <br>
+                <img src="img/jersey2.png" alt="Card Image" class="card-img">
+                <div class="card-body">
+                    <h3 class="card-title">IT FC HOME JERSEY 2024/2025</h3>
+                    <p class="card-text"><del>Nu.1400</del> <strong>Nu.700</strong></p>
+                </div>
+                <div class="cart add-to-cart" data-price="700">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                    <p id="cart">Add to Cart</p>
+                </div>                
+            </div>
+
+            <div class="card">
+                <div class="dis">
+                    <p>-50%</p>
+                </div>
+                <br>
+                <img src="img/jersey3.png" alt="Card Image" class="card-img">
+                <div class="card-body">
+                    <h3 class="card-title">IT FC PRESEASON JERSEY 2022/2023</h3>
+                    <p class="card-text"><del>Nu.700</del> <strong>Nu.350</strong></p>
+                </div>
+                <div class="cart add-to-cart" data-price="350">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                    <p id="cart">Add to Cart</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="dis">
+                    <p>-50%</p>
+                </div>
+                <img src="img/tracktop.png" alt="Card Image" class="card-track">
+                <div class="card-body">
+                    <h3 class="card-title">IT FC TRACK TOP 2024/2025</h3>
+                    <p class="card-text"><del>Nu.2200</del> <strong>Nu.1100</strong></p>
+                </div>
+                <div class="cart add-to-cart" data-price="1100">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                    <p id="cart">Add to Cart</p>
+                </div>
+            </div>
+        
+            <div class="card">
+                <div class="dis">
+                    <p>-50%</p>
+                </div>
+                <img src="img/shorts.png" alt="Card Image" class="card-shorts">
+                <div class="card-body">
+                    <h3 class="card-title">IT FC FOOTBALL SHORTS 2024/2025</h3>
+                    <p class="card-text"><del>Nu.400</del> <strong>Nu.200</strong></p>
+                </div>
+                <div class="cart add-to-cart" data-price="200">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                    <p id="cart">Add to Cart</p>
+                </div>
+            </div>
+        
+            <div class="card">
+                <div class="dis">
+                    <p>-50%</p>
+                </div>
+                <img src="img/mug.jpg" alt="Card Image" class="card-mug">
+                <div class="card-body">
+                    <h3 class="card-title">IT FC MUG</h3>
+                    <p class="card-text"><del>Nu.200</del> <strong>Nu.100</strong></p>
+                </div>
+                <div class="cart add-to-cart" data-price="100">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                    <p id="cart">Add to Cart</p>
+                </div>
+            </div>
+        
+            <div class="card">
+                <div class="dis">
+                    <p>-50%</p>
+                </div>
+                <img src="img/case.jpg" alt="Card Image" class="card-case">
+                <div class="card-body">
+                    <h3 class="card-title">IT FC PHONE CASE</h3>
+                    <p class="card-text"><del>Nu.240</del> <strong>Nu.120</strong></p>
+                </div>
+                <div class="cart add-to-cart" data-price="120">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                    <p id="cart">Add to Cart</p>
+                </div>
+            </div>
+            
+        </div>
+        <hr>
+        <div class="word1">
+            <p>Step into the world of <b>IT</b>: Welcome to the perfect store for all <b>IT</b> fans.<br><br>
+
+                Whether you’re looking for sportswear for your wardrobe or gift ideas, you’ll find the latest collections, special collaborations, and limited-edition items here, all designed to meet the needs of every IT fan.<br><br>
+                
+                Here you can safely purchase the official match kits produced by drukfit, worn by your favorite players and their teammates during the season, in <b>CST Kangtshey</b> matches. Customize you jerseys with exclusive official patches to show off your true IT spirit.<br><br>
+                
+                Show your <b>IT</b> heart and support your team.<br><br> <b>IT ROCKS!</b></p>
+        </div>
+
+    </main>
+    <script src="cart.js"></script>
+</body>
+    <footer>
+    <div class="end">
+        <div class="icon"> 
+        <a href="https://example.com" target="blank" class="iconlist">
+            <i class="fa-brands fa-tiktok"></i>
+        </a>
+
+        <a href="https://example.com" target="blank" class="iconlist">
+            <i class="fa-brands fa-instagram"></i>
+        </a>
+
+        <a href="https://example.com" target="blank" class="iconlist">
+            <i class="fa-brands fa-facebook"></i>
+        </a>
+    </div>
+
+        <a href="shop.html" class="back-to-top">Go to Top</a>
+        
+    </div>
+    <div class="words">
+        <h2>Accessiblity</h2>
+        <h2>Fair Processing Notice</h2>
+        <h2>Cookie Policy</h2>
+        <h2>Modern Slavery Statement</h2>
+        <h2>Privacy Policy</h2>
+        <h2>Terms of Use</h2>
+    </div>
+    <hr/>
+    <div class="end1">
+        <a href="#" class="back-to-top">Fan support</a>
+        <div class="icon">
+        <i class="fa-brands fa-steam-symbol"></i>
+        <i class="fa-brands fa-d-and-d"></i>
+        <i class="fa-brands fa-playstation"></i>
+    </div>
+        <p>  &copy; 2025 Football Club. All Rights Reserved.</p>
+    </div>
+</footer>

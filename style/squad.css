@@ -1,0 +1,360 @@
+.card-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Creates 3 equal columns */
+    gap: 15px; /* Adds space between the cards */
+    padding: 15px; /* Optional: adds padding around the grid */
+}
+
+.card {
+    width: 100%; /* Make the card take the full width of the grid cell */
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    background-color: #fff;
+    transition: transform 0.3s ease;
+    padding: 15px;
+}
+
+.card-body {
+    padding: 15px;
+}
+
+.card-img {
+    padding: 20px;
+    width: 360px;
+    height: 350px;
+    object-fit: cover;
+}
+
+.card-track{
+    padding: 20px;
+    width: 450px;
+    height: 350px;
+    object-fit: cover;
+}
+
+.card-shorts {
+    padding: 20px;
+    width: 350px;
+    height: 270px;
+    object-fit: cover;
+}
+
+.card-mug {
+    padding: 20px 20px 20px 40px;
+    width: 300px;
+    height: 270px;
+    object-fit: cover;
+}
+
+.card-case {
+    padding: 20px 20px 20px 60px;
+    width: 270px;
+    height: 270px;
+    object-fit: cover;
+}
+
+.fsize{
+    font-size:1.5rem;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.player{
+    background-image: url(/img/ran2.jpg);
+    width:341px;
+    height:411px;
+    margin-bottom: 45px;
+    border-radius: 35px;
+    box-shadow: 0 0 20px black, 0 0 50px black;
+    color:white;
+    h3{
+        color:white;
+    }
+    h1{
+        font-size: 80px;
+        font-family: 'Dancing Script', cursive;
+    }
+}
+
+.laxu{
+    background-image: url(/img/laxu.jpg);
+    width:341px;
+    height:411px;
+    margin-bottom: 45px;
+    border-radius: 35px;
+    box-shadow: 0 0 20px black, 0 0 50px black;
+    color:white;
+    h3{
+        color:white;
+    }
+    h1{
+        font-size: 80px;
+        font-family: 'Dancing Script', cursive;
+    }
+}
+
+.titung{
+    background-image: url(/img/titung.jpg);
+    width:341px;
+    height:411px;
+    margin-bottom: 45px;
+    border-radius: 35px;
+    box-shadow: 0 0 20px black, 0 0 50px black;
+    color:white;
+    h3{
+        color:white;
+    }
+    h1{
+        font-size: 80px;
+        font-family: 'Dancing Script', cursive;
+    }
+}
+
+.kt{
+    background-image: url(/img/kt.jpg);
+    width:341px;
+    height:411px;
+    margin-bottom: 45px;
+    border-radius: 35px;
+    box-shadow: 0 0 20px black, 0 0 50px black;
+    color:white;
+    h3{
+        color:white;
+    }
+    h1{
+        font-size: 80px;
+        font-family: 'Dancing Script', cursive;
+    }
+}
+
+.vander{
+    background-image: url(/img/thukten.jpg);
+    width:341px;
+    height:411px;
+    margin-bottom: 45px;
+    border-radius: 35px;
+    box-shadow: 0 0 20px black, 0 0 50px black;
+    color:white;
+    h3{
+        color:white;
+    }
+    h1{
+        font-size: 80px;
+        font-family: 'Dancing Script', cursive;
+    }
+}
+
+
+
+.pasang{
+    background-image: url(/img/pasang.jpg);
+    width:341px;
+    height:411px;
+    margin-bottom: 45px;
+    border-radius: 35px;
+    box-shadow: 0 0 20px black, 0 0 50px black;
+    color:white;
+    h3{
+        color:white;
+    }
+    h1{
+        font-size: 80px;
+        font-family: 'Dancing Script', cursive;
+    }
+}
+
+.tsherab{
+    background-image: url(/img/tsherab.jpg);
+    width:341px;
+    height:411px;
+    margin-bottom: 45px;
+    border-radius: 35px;
+    box-shadow: 0 0 20px black, 0 0 50px black;
+    color:white;
+    h3{
+        color:white;
+    }
+    h1{
+        font-size: 80px;
+        font-family: 'Dancing Script', cursive;
+    }
+}
+
+.rigyel{
+    background-image: url(/img/rigyel.jpg);
+    width:341px;
+    height:411px;
+    margin-bottom: 45px;
+    border-radius: 35px;
+    box-shadow: 0 0 20px black, 0 0 50px black;
+    color:white;
+    h3{
+        color:white;
+    }
+    h1{
+        font-size: 80px;
+        font-family: 'Dancing Script', cursive;
+    }
+}
+
+.choejur{
+    background-image: url(/img/choejur.jpg);
+    width:341px;
+    height:411px;
+    margin-bottom: 45px;
+    border-radius: 35px;
+    box-shadow: 0 0 20px black, 0 0 50px black;
+    color:white;
+    h3{
+        color:white;
+    }
+    h1{
+        font-size: 80px;
+        font-family: 'Dancing Script', cursive;
+    }
+}
+
+
+.lepcha{
+    background-image: url(/img/lepcha.jpg);
+    width:341px;
+    height:411px;
+    margin-bottom: 45px;
+    border-radius: 35px;
+    box-shadow: 0 0 20px black, 0 0 50px black;
+    color:white;
+    h3{
+        color:white;
+    }
+    h1{
+        font-size: 80px;
+        font-family: 'Dancing Script', cursive;
+    }
+}
+
+.chimi{
+    background-image: url(/img/chimi.jpg);
+    width:341px;
+    height:411px;
+    margin-bottom: 45px;
+    border-radius: 35px;
+    box-shadow: 0 0 20px black, 0 0 50px black;
+    color:white;
+    h3{
+        color:white;
+    }
+    h1{
+        font-size: 80px;
+        font-family: 'Dancing Script', cursive;
+    }
+}
+
+.sherab{
+    background-image: url(/img/sherab.jpg);
+    width:341px;
+    height:411px;
+    margin-bottom: 45px;
+    border-radius: 35px;
+    box-shadow: 0 0 20px black, 0 0 50px black;
+    color:white;
+    h3{
+        color:white;
+    }
+    h1{
+        font-size: 80px;
+        font-family: 'Dancing Script', cursive;
+    }
+}
+
+.jigmet{
+    background-image: url(/img/jigmet.jpg);
+    width:341px;
+    height:411px;
+    margin-bottom: 45px;
+    border-radius: 35px;
+    box-shadow: 0 0 20px black, 0 0 50px black;
+    color:white;
+    h3{
+        color:white;
+    }
+    h1{
+        font-size: 80px;
+        font-family: 'Dancing Script', cursive;
+    }
+}
+
+
+
+.dorji{
+    background-image: url(/img/dorji.jpg);
+    width:341px;
+    height:411px;
+    margin-bottom: 45px;
+    border-radius: 35px;
+    box-shadow: 0 0 20px black, 0 0 50px black;
+    color:white;
+    h3{
+        color:white;
+    }
+    h1{
+        font-size: 80px;
+        font-family: 'Dancing Script', cursive;
+    }
+}
+
+.damber{
+    background-image: url(/img/damber.jpg);
+    width:341px;
+    height:411px;
+    margin-bottom: 45px;
+    border-radius: 35px;
+    box-shadow: 0 0 20px black, 0 0 50px black;
+    color:white;
+    h3{
+        color:white;
+    }
+    h1{
+        font-size: 80px;
+        font-family: 'Dancing Script', cursive;
+    }
+}
+
+.karma{
+    background-image: url(/img/karma.jpg);
+    width:341px;
+    height:411px;
+    margin-bottom: 45px;
+    border-radius: 35px;
+    box-shadow: 0 0 20px black, 0 0 50px black;
+    color:white;
+    h3{
+        color:white;
+    }
+    h1{
+        font-size: 80px;
+        font-family: 'Dancing Script', cursive;
+    }
+}
+
+
+.player:hover,.kt:hover,.titung:hover,.vander:hover,.laxu:hover,.rigyel:hover,.tsherab:hover,.choejur:hover,.lepcha:hover,.pasang:hover,chimi:hover,.sherab:hover,.karma:hover,.dorji:hover,.damber:hover,.chimi:hover,.jigmet:hover{
+    transform: scale(1.05);
+    h3{
+        color:red;
+    }
+    h1{
+        color:red;
+    }
+    span{
+        color:red;
+    }
+    
+}
+
+span{
+    color:black;
+    font-weight: bold;
+}
+
+

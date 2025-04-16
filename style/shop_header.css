@@ -1,0 +1,140 @@
+/* for header section */
+header{
+    background: black;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    padding: 20px;
+    height: 120px;
+    width: 100%;
+}
+
+nav{
+    padding: 10px 30px;
+    display : flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    height: 70px;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    width: 100%;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+nav ul li {
+    height: 50px;
+}
+
+nav ul li a{
+    height: 100%;
+    padding: 0 30px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    color: white;
+    text-transform: uppercase;
+}
+nav ul li:hover{
+    border-bottom: white 2px solid;
+    border-radius: 40px;
+} 
+
+nav ul li a {
+    height: 100%;
+    padding: 0 30px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+nav li:first child{
+    margin-right: auto;
+}
+
+.sidebar{
+    position:fixed;
+    top: 0;
+    right: 0;
+    height: 100vh;
+    width: 250px;
+    color: white;
+    z-index: 999;
+    background-color: black;
+    backdrop-filter: blue(10px);
+    box-shadow: -10px 0 10px rgba(0, 0, 0, 0.1);
+    display: none;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.sidebar li{
+    width: 100%;
+}
+
+.sidebar a{
+    width: 100%;
+}
+
+.menu_icon{
+    display: none;
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.menu_icon i{
+    color: white;
+    font-size:30px; 
+}
+
+.itfc{
+    padding-left: 20px;
+}
+
+.it1{
+    border-radius: 40px;
+    box-shadow: 0 0 20px aqua, 0 0 50px aqua;
+}
+
+.menu_button{
+    display:none;
+}
+
+.logo{
+    padding: 0 100px;
+}
+
+@media (max-width: 900px){
+    .background{
+        display: none;
+    }
+    
+    .it1{
+        display: ruby;
+    }
+    
+    .hideonMObile{
+        display: none;
+    }   
+
+    .menu_button{
+        display:block;
+    }
+
+    .endinglogo, .words, .end1, .img, .it, .iconlist{
+        display: none;
+    }
+}
+
+@media (max-width: 400px){
+    .sidebar{
+        width: 100%;
+    }
+}

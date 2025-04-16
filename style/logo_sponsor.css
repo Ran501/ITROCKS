@@ -1,0 +1,107 @@
+.partner{
+    background-color:rgb(227,28,35);
+    display:block;
+    margin:0px;
+    padding:10px;
+}
+
+.partner-logo
+{
+    display: flex;
+    gap: 35px;
+    align-items: center;
+    justify-content: center;
+    font-family:"Brush Script MT",cursive;
+    height:20vh;
+}
+
+.sponsor{
+    margin: 0px;
+    padding:15px;
+    width: 100%;
+    height: 60vh;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    overflow: hidden;
+}
+
+
+
+
+.it2{
+    border-radius: 40px;
+    box-shadow: 0 0 20px red, 0 0 50px red;
+}
+
+.img{
+    margin: 10px;
+    display:grid;
+    grid-template-columns: 30% 30% 30%;
+    gap:100px;
+    animation: move-rt1 6000ms linear infinite;
+}
+
+@keyframes move-rt1 {
+    0% { transform: translateX(100); }
+    100% { transform: translateX(-100%); }
+}
+
+.druk{
+    width: 100px;
+}
+
+.icon-link {
+    font-size: 20px; /* Adjust font size */
+    text-decoration: none; /* Remove underline from links */
+    color: white; /* Default text color */
+    display: flex; /* Align icon and text horizontally */
+    align-items: center; /* Vertically center them */
+  }
+.icon-link i {
+    margin-right: 8px; /* Space between icon and text */
+}
+
+.endinglogo{
+    margin:0px;
+    background-color: black;
+    gap:100px;
+    display:flex;
+    justify-content: space-between;
+    height: 170px;
+    padding:35px;
+}
+
+.icon{
+    width:50px;
+    gap:40px;
+    display:flex;
+    justify-content: center;
+}
+
+.it{
+    border-radius: 60px;
+    box-shadow: 0 0 20px aqua, 0 0 50px aqua;
+}
+
+.iconlist{
+    font-size: 30px;
+    color: aqua;
+}
+
+.fa-brands.fa-steam-symbol { 
+    color: aqua;
+    font-size: 60px; /* Use font-size instead of width */
+}
+
+.fa-brands.fa-d-and-d { 
+    color: aqua;
+    font-size: 60px; /* Use font-size instead of width */
+}
+
+.fa-brands.fa-playstation { 
+    color: aqua;
+    font-size: 60px; /* Use font-size instead of width */
+}
+
+

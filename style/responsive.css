@@ -1,0 +1,130 @@
+@media (max-width: 768px) {
+    nav ul li {
+        display: block; /* Stack navigation items vertically */
+        margin: 10px 0; /* Adjust margin for vertical spacing */
+        padding: 15px; /* Adjust padding */
+    }
+
+    .hero h2 {
+        font-size: 30px; /* Reduce font size for smaller screens */
+    }
+
+    .background-container {
+        width: 100%; /* Full width on mobile */
+        height: auto; /* Adjust height */
+    }
+
+    .card-container {
+        grid-template-columns: repeat(3, 1fr); /* Three columns on desktop */
+    }
+
+    .card{
+        width: 100%; /* Full width for cards */
+        margin: 10px 0; /* Adjust margin for vertical spacing */
+    }
+
+    .img {
+        grid-template-columns: 1fr; /* Stack images vertically */
+    }
+
+    .end {
+        flex-direction: column; /* Stack items vertically */
+        align-items: center; /* Center items */
+    }
+
+    .words {
+        grid-template-columns: 1fr; /* Stack words vertically */
+    }
+
+    .kit {
+        grid-template-columns: 1fr; /* Stack kit items vertically */
+    }
+
+    .ticket {
+        grid-template-columns: 1fr; /* Stack ticket items vertically */
+    }
+
+    .trophy {
+        flex-direction: column; /* Stack trophy items vertically */
+    }
+}
+
+/* Tablet Styles */
+@media (min-width: 769px) and (max-width: 1024px) {
+    nav ul li {
+        margin: 0 10px; /* Adjust margin for tablet */
+        padding: 20px; /* Adjust padding */
+    }
+
+    .hero h2 {
+        font-size: 35px; /* Adjust font size for tablet */
+    }
+
+    .card-container {
+        grid-template-columns: repeat(2, 1fr); /* Three columns on desktop */
+    }
+
+    .img {
+        grid-template-columns: repeat(2, 1fr); /* Two columns for images */
+    }
+
+    .end {
+        flex-direction: row; /* Keep items in a row */
+    }
+
+    .words {
+        grid-template-columns: repeat(2, 1fr); /* Two columns for words */
+    }
+
+    .kit {
+        grid-template-columns: repeat(2, 1fr); /* Two columns for kit items */
+    }
+
+    .ticket {
+        grid-template-columns: repeat(2, 1fr); /* Two columns for ticket items */
+    }
+
+    .trophy {
+        flex-direction: row; /* Keep trophy items in a row */
+    }
+}
+
+/* Desktop Styles */
+@media (min-width: 1025px) {
+    nav ul li {
+        margin: 0 15px; /* Maintain original margin */
+        padding: 30px; /* Maintain original padding */
+    }
+
+    .hero h2 {
+        font-size: 40px; /* Maintain original font size */
+    }
+
+    .card-container {
+        grid-template-columns: repeat(3, 1fr); /* Three columns on desktop */
+    }
+
+    .img {
+        grid-template-columns: repeat(3, 1fr); /* Three columns for images */
+    }
+
+    .end {
+        flex-direction: row; /* Keep items in a row */
+    }
+
+    .words {
+        grid-template-columns: repeat(4, 1fr); /* Four columns for words */
+    }
+
+    .kit {
+        grid-template-columns: repeat(2, 1fr); /* Two columns for kit items */
+    }
+
+    .ticket {
+        grid-template-columns: repeat(2, 1fr); /* Two columns for ticket items */
+    }
+
+    .trophy {
+        flex-direction: row; /* Keep trophy items in a row */
+    }
+}

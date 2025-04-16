@@ -1,0 +1,21 @@
+.infobox{
+    margin: 30px;
+}
+
+.trophy{
+    background-color: #dbdada;
+    padding: 30px;
+    height:400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    h3{
+        font-size: 50px;
+    }
+}
+
+.fa-solid.fa-trophy{ 
+    color: black;
+    font-size: 150px; /* Use font-size instead of width */
+}

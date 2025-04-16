@@ -1,0 +1,51 @@
+.head{
+    margin:20px;
+    h1{
+        color:red;
+        border-bottom: solid red 2px;
+        width: 20%;
+    }
+}
+
+.enemy{
+    border-radius: 50px;
+}
+
+.p{
+    color:red;
+}
+
+.ticket{
+    margin:30px 20px 20px 20px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    justify-content: space-between;   
+    height:160px; 
+    h1{
+        color:red;
+    };    
+}
+
+.box{
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    margin-top: 15px 0 15px 0;
+    padding: 15px;
+}
+
+button{
+    margin:10px;
+    padding:10px;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: 0.3s ease;
+    font-size:16px;
+    background-color: #e31b23;
+    border: red;
+    color:white;
+}
+
+button:hover{
+    transform: scale(1.1);
+    background-color: darkblue;
+}

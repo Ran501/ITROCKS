@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Football Club</title>
+    <link rel="stylesheet" href="style/about.css">
+    <link rel="stylesheet" href="style/background_img.css">
+    <link rel="stylesheet" href="style/fixture.css">
+    <link rel="stylesheet" href="style/footer.css">
+    <link rel="stylesheet" href="style/global.css">
+    <link rel="stylesheet" href="style/header.css">
+    <link rel="stylesheet" href="style/logo_sponsor.css">
+    <link rel="stylesheet" href="style/responsive.css">
+    <link rel="stylesheet" href="style/shop.css">
+    <link rel="stylesheet" href="style/squad.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="itfc">
+            <a href = "index.html" class = "itfc">
+                <img src = "img/it.jpg" alt="it" class="it1" width=80px>
+            </a>    
+        </div>  
+        <nav>
+            <ul class = 'sidebar'>
+                <li onclick=hideSidebar()><a href="#"></a><svg xmlns="http://www.w3.org/2000/svg" height="26px" viewBox="0 -960 960 960" width="26px" fill="#e3e3e3" class="close"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></a></li>
+                <li><a href="ticket.html">Ticket</a></li>
+                <li><a href="shop.html" target ="blank">Shop</a></li>
+                <li><a href="squad.html">Squad</a></li>
+                <li><a href="about.html">Club</a></li>
+            </ul>
+
+            <ul>
+                <li class="hideonMObile"><a href="ticket.html">Ticket</a></li>
+                <li class="hideonMObile"><a href="shop.html" target ="blank">Shop</a></li>
+                <li class="hideonMObile"><a href="squad.html">Squad</a></li>
+                <li class="hideonMObile"><a href="about.html">Club</a></li>
+                <li class = "menu_button" onclick = showSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="26px" fill="#e3e3e3"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></a></li>
+            </ul>
+
+        </nav>
+        <div class="drukfitfc">
+            <img src="img/drukfit.png" alt="drukfit" class="drukfit" width="80px">
+        </div>
+    </header>
+    <script>
+       function showSidebar(){
+            const sidebar = document.querySelector('.sidebar');
+            sidebar.style.display = "flex";
+       }
+
+       function hideSidebar(){
+            const sidebar = document.querySelector('.sidebar');
+            sidebar.style.display = "none";
+       }
+    </script>
+    <main>
+        <div class="most">
+            <h1>FOOTBALLER</h1>
+        </div>
+
+        <div class="most">
+            <h1>GOALKEEPER</h1>
+        </div>
+
+        <div class="card-container">
+            <div class="tsherab">
+                <br>
+                <div class="card-body">
+                    <h1 class="number">1</h1>
+                </div>
+                <br><br><br>
+                <div class="card-body">
+                    <h3 class="fsize">JIGME<br>TSHERAB<br>DAMCHOE</h3>
+                </div>
+            </div>
+
+            <div class="rigyel">
+                <br>
+                <div class="card-body">
+                    <h1 class="number">99</h1>
+                </div>
+                <br><br><br>
+                <div class="card-body">
+                    <h3 class="fsize">TASHI<br>RIGYEL</h3>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="most">
+            <h1>DEFENDER</h1>
+        </div>
+
+        <div class="card-container">
+            <div class="lepcha">
+                <br>
+                <div class="card-body">
+                    <h1 class="number">4</h1>
+                </div>
+                <br><br><br>
+                <div class="card-body">
+                    <h3 class="fsize">GYELT<span>SHEN</span><br>LEPCH<span>A</spna></h3>
+                </div>
+            </div>
+
+            <div class="choejur">
+                <br>
+                <div class="card-body">
+                    <h1 class="number">3</h1>
+                </div>
+                <br><br><br>
+                <div class="card-body">
+                    <h3 class="fsize">SONAM<br>CHOEJUR</h3>
+                </div>
+            </div>
+
+            <div class="pasang">
+                <br>
+                <div class="card-body">
+                    <h1 class="number">13</h1>
+                </div>
+                <br><br><br>
+                <div class="card-body">
+                    <h3 class="fsize">PASANG<br>GYELTSHEN</h3>
+                </div>
+            </div>
+
+
+            <div class="titung">
+                <br>
+                <div class="card-body">
+                    <h1 class="number">6</h1>
+                </div>
+                <br><br>
+                <div class="card-body">
+                    <h3 class="fsize">KARMA<br>WANGC<span>HUK</span><br>TITUNG</h3>
+                </div>
+            </div>
+
+        </div>
+        
+        <div class="most">
+            <h1>MIDFIELDER</h1>
+        </div>
+        <div class="card-container">
+
+            <div class="sherab">
+                <br>
+                <div class="card-body">
+                    <h1 class="number">10</h1>
+                </div>
+                <br><br><br>
+                <div class="card-body">
+                    <h3 class="fsize">SHERAB<br>DORJI</h3>
+                </div>
+            </div>
+
+
+            <div class="chimi">
+                <br>
+                <div class="card-body">
+                    <h1 class="number">8</h1>
+                </div>
+                <br><br><br>
+                <div class="card-body">
+                    <h3 class="fsize">CHIMI<br>GYELT<span>SHEN</span></h3>
+                </div>
+            </div>
+
+            <div class="jigmet">
+                <br>
+                <div class="card-body">
+                    <h1 class="number">19</h1>
+                </div>
+                <br><br>
+                <div class="card-body">
+                    <h3 class="fsize">JIGME<br>TSHEW<span>ANG</span><br>YOEZER</h3>
+                </div>
+            </div>
+
+            <a href="playerstats/ranposter.html" style="text-decoration: none;">
+                <div class="player">
+                    <br>
+                    <div class="card-body">
+                        <h1 class="number">14</h1>
+                    </div>
+                    <br><br><br>
+                    <div class="card-body">
+                        <h3 class="fsize">CHON<span>EY</span><br>RAN<span>GDEL</span></h3>
+                    </div>
+                </div>
+            </a>            
+
+
+        </div>
+
+        <div class="most">
+            <h1>FORWARD</h1>
+        </div>
+        <div class="card-container">
+            <div class="dorji">
+                <br>
+                <div class="card-body">
+                    <h1 class="number">66</h1>
+                </div>
+                <br><br><br>
+                <div class="card-body">
+                    <h3 class="fsize">DORJI<br>GYELTS<span>HEN</span></h3>
+                </div>
+            </div>
+
+            <div class="damber">
+                <br>
+                <div class="card-body">
+                    <h1 class="number">17</h1>
+                </div>
+                <br><br><br>
+                <div class="card-body">
+                    <h3 class="fsize">DAMB<span>ER</span><br>KHATI<span>WARA</span></h3>
+                </div>
+            </div>
+
+
+            <div class="laxu">
+                <br>
+                <div class="card-body">
+                    <h1 class="number">11</h1>
+                </div>
+                <br><br>
+                <div class="card-body">
+                    <h3 class="fsize">LAXU<br>MAN<br>GHALLEY</h3>
+                </div>
+            </div>
+
+            <div class="karma">
+                <br>
+                <div class="card-body">
+                    <h1 class="number">5</h1>
+                </div>
+                <br><br><br>
+                <div class="card-body">
+                    <h3 class="fsize">KARMA<br>SONAM</h3>
+                </div>
+            </div>
+
+            <div class="kt">
+                <br>
+                <div class="card-body">
+                    <h1 class="number">21</h1>
+                </div>
+                <br><br><br>
+                <div class="card-body">
+                    <h3 class="fsize">KINLEY<br>TENZIN</h3>
+                </div>
+            </div>
+        </div>
+
+        <div class="most">
+            <h1>MANAGER</h1>
+        </div>
+        <div class="card-container">
+            <div class="vander">
+                <br>
+                <div class="card-body">
+                    <h1 class="number"></h1>
+                </div>
+                <br><br><br>
+                <div class="card-body">
+                    <h3 class="fsize">VANDER</h3>
+                </div>
+            </div>
+        </div>
+
+
+    </main>
+</body>
+    <footer>
+    <div class="end">
+        <div class="icon"> 
+        <a href="https://example.com" target="blank" class="iconlist">
+            <i class="fa-brands fa-tiktok"></i>
+        </a>
+
+        <a href="https://example.com" target="blank" class="iconlist">
+            <i class="fa-brands fa-instagram"></i>
+        </a>
+
+        <a href="https://example.com" target="blank" class="iconlist">
+            <i class="fa-brands fa-facebook"></i>
+        </a>
+    </div>
+
+        <a href="squad.html" class="back-to-top">Go to Top</a>
+        
+    </div>
+    <div class="words">
+        <h2>Accessiblity</h2>
+        <h2>Fair Processing Notice</h2>
+        <h2>Cookie Policy</h2>
+        <h2>Modern Slavery Statement</h2>
+        <h2>Privacy Policy</h2>
+        <h2>Terms of Use</h2>
+    </div>
+    <hr/>
+    <div class="end1">
+        <a href="#" class="back-to-top">Fan support</a>
+        <div class="icon">
+        <i class="fa-brands fa-steam-symbol"></i>
+        <i class="fa-brands fa-d-and-d"></i>
+        <i class="fa-brands fa-playstation"></i>
+    </div>
+        <p>  &copy; 2025 Football Club. All Rights Reserved.</p>
+    </div>
+</footer>

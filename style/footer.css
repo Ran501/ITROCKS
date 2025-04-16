@@ -1,0 +1,29 @@
+.back-to-top{
+    color:aqua;
+    font-size: 1rem;
+}
+
+footer{
+    background-color: black;
+    margin-top: 50px;
+    padding: 30px;
+}
+.words{
+  
+    color: aqua;
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20%;
+    gap: 30px;
+    padding: 15px;
+}
+
+.end1{
+    background-color: black;
+    height: 150px;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    p{
+        color: aqua;
+    }
+}
